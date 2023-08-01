@@ -2,26 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+h1,.h1,h2,.h2,h3,.h3{
+  font-size: clamp(var(--min), var(--val), var(--max));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+h1,
+.h1 {
+  --min: 2.2rem;
+  --val: 5vw;
+  --max: 4.63rem;
 }
-
+h2,
+.h2 {
+  --min: 2.19rem;
+  --val: 5vw;
+  --max: 3.50rem;
+}
+h3,
+.h3 {
+  --min: 1.50rem;
+  --val: 5vw;
+  --max: 2.00rem;
+}
+h4,
+.h4{
+@apply text-xl md:text-2xl
+}
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100%;
+  overflow-x: hidden;
 }
+span{
+  @apply text-sm lg:text-base
+}
+
+#__next ,.rt-wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+main {
+  flex: 1 1 auto;
+}
+.container{
+  @apply max-w-[1472px] mx-auto px-4;
+}
+.bd{
+  border: 1px solid red ;
+}
+.btn-gradient{
+  background: linear-gradient(90deg, rgba(212,4,47,1) 0%, rgba(255,25,73,1) 75%);
+
+}
+
+
+
