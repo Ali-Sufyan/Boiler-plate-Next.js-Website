@@ -14,16 +14,16 @@ const Footer = () => {
       <div className='py-10 border-t border-white'>
         <div className='container flex justify-between gap-10 flex-wrap'>
           <div>
-            <span className='block text-gray mb-2 font-medium'>Legal</span>
-            <span className='text-gray'>{"L’ART"} GROUP©2021</span>
+            <span className='block text-gray mb-2 font-medium'>Email</span>
+            <span className='text-gray'> brainxskill@gmail.com</span>
           </div>
           <div>
-            <span className='block text-white mb-2 font-medium'>info@lart-group.com</span>
-            <span className='text-white'>+81 00 000000</span>
+            <span className='block text-white mb-2 font-medium'></span>
+            <span className='text-white'>+92 302 6906975</span>
           </div>
           <div>
-            <span className='block text-white mb-2 font-medium'>1 Chome-5-1 Ogigayatsu, Kamakura-shi,</span>
-            <span className='text-white'>Kanagawa-ken 248-0011</span>
+            <span className='block text-white mb-2 font-medium'></span>
+            <span className='text-white'>IT Tower Lahore</span>
           </div>
         </div>
       </div>

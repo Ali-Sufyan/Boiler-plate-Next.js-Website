@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from './components/Banner'
+import Dropdown from '@/components/common/DropDown'
 import BuildingValue from './components/BuildingValue'
 import OurMission from './components/OurMission'
 import Experience from './components/Experience'
@@ -11,7 +12,8 @@ import KeepUp from './components/KeepUp'
 const HomeModule = () => {
   return (
     <>
-    <Banner/>
+    <Dropdown/>
+    {/* <Banner/> */}
     {/* <BuildingValue/> */}
     {/* <OurMission/> */}
     {/* <Experience/> */}

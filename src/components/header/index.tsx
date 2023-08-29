@@ -6,25 +6,10 @@ import { useRouter } from 'next/router'
 import { type } from "os";
 const Navigation = [
   {
-    name: "HOME",
+    name: "Drop Down",
     href: "/",
   },
-  {
-    name: "COURSES",
-    href: "/courses",
-  },
-  {
-    name: "SUCCESS STORIES",
-    href: "/success-stories",
-  },
-  {
-    name: "BLOGS",
-    href: "/blogs",
-  },
-  {
-    name: "CONTACT US",
-    href: "/contact",
-  },
+
 ];
 
 export default function Navbar() {
